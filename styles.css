@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 16px 100px;
+  align-items: center;
+}
+
+.header a,
+.header ul {
+  color: #E5E7EB;
+  list-style: none;
+}
+
+.header-logo {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.header-links {
+  display: flex;
+  margin-left: auto;
+  gap: 12px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #1F2937;
+  padding: 50px 100px;
+  flex: 1 1 0%;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  padding-right: 20px;
+}
+
+.hero-header {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #E5E7EB;
+  padding-bottom: 8px;
+}
+
+.hero-signup .signup-button{
+  background-color: #0090d3;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.hero-img {
+  display: flex;
+  flex: 1 1 0%;
+  background-color: #445977;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
