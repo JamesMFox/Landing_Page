@@ -10,8 +10,14 @@ body {
   box-sizing: border-box;
 }
 
-a {
+a:link,
+a:active,
+a:visited  {
   text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
 }
 
 ul {
@@ -144,4 +150,29 @@ ul {
 .author {
   text-align: right;
   font-weight: bold;
+}
+
+.calltoaction-section {
+  display: flex;
+  background-color: #0090d3;
+  align-items: center;
+  margin: 50px 100px;
+  padding: 50px 100px;
+  justify-content: space-around;
+  border-radius: 12px;
+}
+
+.calltoaction-text {
+  color: #FFFFFF;
+}
+
+.calltoaction-button button {
+  background-color: #0090d3;
+  border: 3px solid #FFFFFF;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
 }
