@@ -129,3 +129,19 @@ ul {
   flex-shrink: 0;
 }
 
+.quote-section {
+  padding: 40px 100px;
+  background-color: #E5E7EB;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+}
